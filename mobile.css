@@ -1,1 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+}
+h2{
+    padding-top:1em;
+    font-size: 5em;
+}
+#heroImage{
+  width: 60em;
+  height: 40em;
+  border: solid green;
+  border-width: .2em;
+}
 
+section{
+  width: 60em;
+  height: 40em;
+  border: solid green;
+  border-width: .2em;
+  display: inline;
+}
+#leftProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  padding-right: 1em;
+}
+#rightProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  /*padding-right: 1em;*/
+}
