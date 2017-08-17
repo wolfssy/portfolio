@@ -1,1 +1,52 @@
+header{
+  padding-top:1em;
+  font-size: 2em;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+}
+h2{
+    padding-top:1em;
+    font-size: 2em;
+}
+.icon-menu {
+  right:5px;
+  font-size: 1em;
+}
+#heroImage{
+  width: 60em;
+  height: 40em;
+  border: solid green;
+  border-width: .2em;
 
+}
+
+#projectContainer{
+  width: 60em;
+  height: 40em;
+  border: solid green;
+  border-width: .2em;
+  display: inline-flex;
+
+}
+#leftProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  margin-top:135px;
+  margin-bottom: auto;
+  margin-left:79px;
+  margin-right: auto;
+}
+#rightProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  margin-top: 135px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 79px;
+}
