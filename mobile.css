@@ -20,13 +20,32 @@ h2{
   right:5px;
   font-size: 1em;
 }
-#heroImage{
+#slider{
+  width:800px;
+  height:400px;
+  overflow:hidden;
+}
+#slider .allSlides{
+  display:block;
+  width:6000px;
+  height:400px;
+  margin:0;
+  padding:0;
+}
+#slider .slide{
+  float:left;
+  list-style-type: none;
+  width:800px;
+  height:400px;
+}
+
+/*#heroImage{
   width: 60em;
   height: 40em;
   border: solid green;
   border-width: .2em;
 
-}
+}*/
 
 #projectContainer{
   width: 60em;
@@ -84,7 +103,7 @@ h2{
   border-bottom: 1px solid #ccc;
 }
 
-@media only screen and (min-width: 330px) {
+@media only screen (min-width: 330px) {
   .icon-menu {
     display: none;
   }
