@@ -4,7 +4,7 @@
    border: 3px;
 
  }*/
-header{
+header {
   padding-top:1em;
   font-size: 2em;
 }
@@ -103,7 +103,7 @@ h2{
   border-bottom: 1px solid #ccc;
 }
 
-@media only screen (min-width: 330px) {
+@media and screen (min-width: 330px) {
   .icon-menu {
     display: none;
   }
