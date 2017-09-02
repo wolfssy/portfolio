@@ -2,9 +2,9 @@
 
 $(function(){
   var width = 775;
-  var animationSpeed = 955;
-  var pause = 1750;
-  var currentSlide = 2;
+  var animationSpeed = 975;
+  var pause = 2600;
+  var currentSlide = 0;
 
   var $slider = $('#slider');
   var $slideContainer = $slider.find('.slides');
