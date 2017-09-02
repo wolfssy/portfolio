@@ -20,32 +20,25 @@ h2{
   right:5px;
   font-size: 1em;
 }
-/*#slider{
-  width:800px;
-  height:400px;
+#slider{
+  width:75em;
+  height:38.5em;
   overflow:hidden;
 }
-#slider .allSlides{
+#slider .Slides{
   display:block;
-  width:6000px;
-  height:400px;
+  width:100%;
   margin:0;
-  padding:0;
+  padding:1em;
 }
 #slider .slide{
-  float:left;
+  float: left;
+  position: relative;
   list-style-type: none;
-  width:800px;
-  height:400px;
-}*/
-
-/*#heroImage{
-  width: 60em;
-  height: 40em;
-  border: solid green;
-  border-width: .2em;
-
-}*/
+  padding-left: 1em;
+  min-height: 10em;
+  min-width: 10em;
+}
 
 #projectContainer{
   width: 60em;
