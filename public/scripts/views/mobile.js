@@ -1,9 +1,9 @@
 'use strict';
 
 $(function(){
-  var width = 1220;
+  var width = 775;
   var animationSpeed = 955;
-  var pause = 1550;
+  var pause = 1750;
   var currentSlide = 2;
 
   var $slider = $('#slider');
