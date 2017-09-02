@@ -20,12 +20,12 @@ h2{
   right:5px;
   font-size: 1em;
 }
-/*#slider{
-  width:800px;
-  height:400px;
+#slider{
+  width:2550px;
+  height:500px;
   overflow:hidden;
 }
-#slider .allSlides{
+#slider .Slides{
   display:block;
   width:6000px;
   height:400px;
@@ -33,19 +33,15 @@ h2{
   padding:0;
 }
 #slider .slide{
-  float:left;
+  float: left;
+  position: relative;
   list-style-type: none;
-  width:800px;
-  height:400px;
-}*/
-
-/*#heroImage{
-  width: 60em;
-  height: 40em;
-  border: solid green;
-  border-width: .2em;
-
-}*/
+  width:1000;
+  height:1000;
+  /*background-position: 50% 50%;*/
+  min-height: 10em;
+  min-width: 10em;
+}
 
 #projectContainer{
   width: 60em;
