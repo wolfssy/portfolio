@@ -6,6 +6,24 @@
   <link rel="stylesheet" href="style/layout.css">
   <link rel="stylesheet" href="style/modules.css">
   <meta name=“viewport” content= “width=device-width, initial-scale=1”>
+  <!-- handlbars template -->
+  <script id="blog-template" type="text/x-handlebars-template">
+   <article data-category="{{category}}" data-author="{{author}}">
+     <header>
+       <h1>{{title}}</h1>
+       <div class="byline">
+         By <address><a href="{{authorUrl}}">{{author}}</a></address>
+         <time pubdate datetime="{{publishedOn}}">{{publishStatus}}</time>
+       </div>
+     </header>
+     <section class="article-body">
+       {{{body}}}
+     </section>
+     <a href="#" class="read-on">Read on &rarr;</a>
+   </article>
+ </script>
+
+<!-- END OF TEMPLATE -->
   <title>Portfolio</title>
 </head>
 <body>
@@ -41,10 +59,6 @@
       <li class = "slide"><img src="img/bird.jpg" /></li>
     </ul>
   </div>
-  <!-- <button id = "left">&larr;</button>
-  <button id = "right">&rarr;</button> -->
-
-
 
   <h2>Projects</h2>
   <div id = "projectContainer">
@@ -53,7 +67,8 @@
   </div>
   <p> I'm Brandon.  I don't know what to type for an example of my personal life so I'll just freestyle it so i can turn this in already.
     I was up late watching Ed, Edd, and Eddy on the telly, don't be jelly.  I forgot to shower before bed, Waking up sweaty and smelly. Normally I'm a clean guy, with a serene vibe and happy I got food in my belly.  I enjoy poetry because it calms me down, turns my frown back around to the time when I was a kid in LA and the sky was brown.  Sometimes I can't calm myself, so I punch and kick things on the stealth.  Slang for quietly enjoying my hobbies to much that I lose my wealth.  It doesn't bother me though; ask yourself "is it possible to have all the money in the world without laughter and still be happy?" No.
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="vendor/scripts/handlebars.js"></script>
   <script src="scripts/views/mobile.js"></script>
 
 

@@ -13,7 +13,7 @@ header {
 
 
 
-@media and screen (min-width: 330px) {
+/*@media and screen (min-width: 330px) {*/
   .icon-menu {
     display: none;
   }
