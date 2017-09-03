@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: gray;
+}
+h2{
+    padding-top:1em;
+    font-size: 2em;
+}
+
+
+
+#slider{
+  width:75em;
+  height:38.5em;
+  overflow:hidden;
+}
+#slider .Slides{
+  display:block;
+  width:100%;
+  margin:0;
+  padding:1em;
+}
+#slider .slide{
+  float: left;
+  position: relative;
+  list-style-type: none;
+  padding-left: 1em;
+  min-height: 10em;
+  min-width: 10em;
+}
+
+#projectContainer{
+  width: 60em;
+  height: 40em;
+  border: solid green;
+  border-width: .2em;
+  display: inline-flex;
+
+}
+#leftProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  margin-top:135px;
+  margin-bottom: auto;
+  margin-left:79px;
+  margin-right: auto;
+}
+#rightProject{
+  width: 20em;
+  height: 20em;
+  border: solid green;
+  border-width: .2em;
+  margin-top: 135px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 79px;
+}
