@@ -9,6 +9,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static('./public'));
 
+
+app.get('/', (request, response) => response.sendFile('mobile.html', {root: './public'}));
+
+
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
