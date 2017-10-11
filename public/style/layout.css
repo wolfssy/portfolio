@@ -1,6 +1,6 @@
 header {
   padding-top:1em;
-  font-size: 2em;
+  font-size: 1em;
 }
 ul {
     list-style-type: none;
@@ -43,7 +43,7 @@ h2{
   font-size: 1em;
 }
 #slider{
-  width:75em;
+  width:48em;
   height:30.5em;
   overflow:hidden;
 }
